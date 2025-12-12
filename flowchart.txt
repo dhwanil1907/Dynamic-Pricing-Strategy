@@ -1,0 +1,67 @@
+                 ┌────────────────────────┐
+                 │      Start Project      │
+                 └────────────┬───────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 1. Import Product Dataset   │
+                │ - Prices                    │
+                │ - Categories (cat1/cat2/…)  │
+                │ - Product attributes        │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 2. Clean & Prepare Data     │
+                │ - Fix missing values        │
+                │ - Standardize categories    │
+                │ - Split category levels     │
+                │ - Remove outliers           │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 3. Feature Engineering      │
+                │ - Encode categories         │
+                │ - Avg price per category    │
+                │ - Competitive features      │
+                │ - Demand signals            │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 4. Train Pricing Model      │
+                │ (ML Algorithms)             │
+                │ - Regression models         │
+                │ - Gradient boosting         │
+                │ - Elasticity estimation     │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 5. Evaluate Model           │
+                │ - RMSE / MAPE               │
+                │ - Price sensitivity checks  │
+                │ - Category-level accuracy   │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 6. Generate Price Recs      │
+                │ - Optimal price per item    │
+                │ - Underpriced items         │
+                │ - Overpriced items          │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ 7. Business Integration     │
+                │ - Dashboard / API           │
+                │ - Automated price updates   │
+                │ - Simulation: revenue gain  │
+                └────────────┬────────────────┘
+                              │
+                              ▼
+                 ┌──────────────────────────┐
+                 │       End / Deploy       │
+                 └──────────────────────────┘
